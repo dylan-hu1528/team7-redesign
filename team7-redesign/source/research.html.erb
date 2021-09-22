@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Research</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <%= stylesheet_link_tag "site" %>
+      <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class = list>
+      <!-- Research Header -->
+      <h2>Research</h2>
+        <!-- Current Interests subsection -->
+        <h3>Current Interests</h3>
+        <!--Current Interests subsection content-->
+        <ul>
+        <% data.homePage.research.current_interests.mobile_apps_introduction.each do |item| %>
+          <li><%= item %>
+        <% end %>
+
+        <ul>
+        <% data.homePage.research.current_interests.mobile_apps.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+
+        <% data.homePage.research.current_interests.software_security_introduction.each do |item| %>
+         <li><%= item %>
+        <% end %>
+
+        <ul>
+        <% data.homePage.research.current_interests.software_security.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+
+        <% data.homePage.research.current_interests.system_security_introduction.each do |item| %>
+          <li><%= item %>
+        <% end %>
+
+        <ul>
+        <% data.homePage.research.current_interests.system_security.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+        </ul>
+        
+        <!-- Group subsection -->
+        <h3>Groups</h3>
+        <ul>
+        <!-- Group subsection content -->
+        <% data.homePage.research.groups.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        
+        <!-- Publications subsection -->
+        <h3>Selected and Recent Publications</h3>
+        <!-- Publication subsection content -->
+        <ul>
+        <% data.homePage.research.publications.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+    </div>
+  </body>
+</html>

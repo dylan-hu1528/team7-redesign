@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Each section prints header then prints data from YAML file-->
+  <head>
+    <title>Zhiqiang Lin's Homepage</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <%= stylesheet_link_tag "site" %>
+      <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class = list>
+      <!--About Me Section-->
+      <h3>About Me</h3>
+      <img src = "images/zlin.jpg" alt = "Professor Zhiqiang Lin">
+        <ul>
+          <% data.homePage.aboutMe.each do |item| %>
+            <li><%= item %></li>
+          <% end %>
+        </ul>
+
+     <!--Teaching Section-->
+     <h3>Teaching</h3>
+     <ul>
+      <% data.homePage.research.teaching.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <!--Services Section-->
+      <h3>Services</h3>
+      <h4>Editorial Service:</h4>
+      <ul>
+      <% data.homePage.research.service.editorial_service.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <h4>Conference Organization:</h4>
+      <ul>
+      <% data.homePage.research.service.conference_organization.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <h4>Technical Program Committee (TPC) Member:</h4>
+      <ul>
+      <% data.homePage.research.service.technical_program_committee_member.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <h4>Panelist:</h4>
+      <ul>
+      <% data.homePage.research.service.panelist.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <h4>Artifact Evaluation Committee Member:</h4>
+      <ul>
+      <% data.homePage.research.service.artifact_evaluation_committee_member.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+    </div>
+  </body>
+</html>

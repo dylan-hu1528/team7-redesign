@@ -1,0 +1,105 @@
+course_description:
+- This one-credit hour, S/U grade, online course will discuss the recent advances in computer security, covering a variety of advanced topics including (1) hardware security such as Row-Hammer, Meltdown, Spectra, and Foreshadow attacks; (2) software security such as code reuse attacks, binary code disassembling/reassembling, and fuzzing; (3) IoT security such as smarthome, and Bluetooth security; and (4) mobile security such as Android systems security and robocalls. Thirteen distinguished speakers across the globe (9 USA, 3 Europe, and 1 Asia-pacific) have been invited to deliver the weekly lecture via zoom on every Friday at 11AM (to accommodate the different time zones). Students enrolled in this class are expected to attend the lectures and ask questions. There will be no homeworks and exams.
+
+course_schedule:
+  hardware_security:
+    a:
+      date: 
+      - 08/28
+      speaker: 
+      - Daniel Ginkin (UMich)
+      topic: 
+      - When it leaks, it pours on the (sad) state of today’s hardware security.
+    b:
+      date: 
+      - 09/04
+      speaker: 
+      - Daniel Gruss (TUGraz)
+      topic: 
+      - Faulting Hardware from Software
+    c:
+      date: 
+      - 09/11
+      speaker: 
+      - Kaveh Razavi (ETH)
+      topic: 
+      - TRRespass Exploiting the Many Sides of Target Row Refresh
+  software_security:
+    a:
+      date: 
+      - 09/18
+      speaker: 
+      - Antonio Flores Montoya (GrammaTech)
+      topic: 
+      - Datalog disassembly
+    b:
+      date: 
+      - 09/25
+      speaker: 
+      - Michalis Polychronakis (Stonybrook)
+      topic: 
+      - Code reuse attacks
+    c:
+      date: 
+      - 10/02	
+      speaker: 
+      - Yang Liu (NTU)
+      topic: 
+      - Vulnerability discovery I
+    d:
+      date: 
+      - 10/09
+      speaker: 
+      - Mathias Payer (EPFL)
+      topic: 
+      - Vulnerability discovery II
+  iot_security:
+    a:
+      date: 
+      - 10/16
+      speaker: 
+      - Adwait Nadkarni (W&M)
+      topic: 
+      - IoT automation and safety
+    b:
+      date: 
+      - 10/23
+      speaker: 
+      - Earlence Fernandes (UW-Madision)
+      topic: 
+      - Smarthome app security
+    c:
+      date:
+      - 10/30
+      speaker: 
+      - Kassem Fawaz (UW-Madision)
+      topic: 
+      - Bluetooth security
+  mobile_security:
+    a:
+      date: 
+      - 11/06
+      speaker: 
+      - Will Enck (NCSU)
+      topic: 
+      - Mobile app analysis
+    b:
+      date: 
+      - 11/13
+      speaker: 
+      - Brad Reaves (NCSU)
+      topic: 
+      - Understanding Robocalls
+    c:
+      date: 
+      - 11/20
+      speaker: 
+      - Billy Lau (Google)
+      topic: 
+      - Android systems security
+
+course_logistics:
+  - This will be an online course, and the lectures will be delivered via zoom. 
+
+attendence_policy:
+  -  Students who registered are expected to attend the online lectures. 

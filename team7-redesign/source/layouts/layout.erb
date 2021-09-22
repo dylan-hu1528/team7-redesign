@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>Zhiqiang Lin's Homepage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <!-- Creates a header that for all pages with links back to each page of the website -->
+    <div class = header>
+      <h1>Professor Zhiqiang Lin</h1>
+      <p>The Ohio State University</p>
+      <!-- Navigation between all pages of the website in the header -->
+      <div class = "nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="CSE5473.html">CSE 5473</a>
+        <a href="CSE6469.html">CSE 6469</a>
+        <a href="students.html">Talented Students</a>
+        <a href="calender.html">Calender</a>
+      </div>
+    </div>
+    <%= yield %>
+    <!-- Footer that spans all pages containing the author i.e. Team 7 -->
+    <div class = footer>
+      <p>Team 7</p>
+    </div>
+  </body>
+</html>

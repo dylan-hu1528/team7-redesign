@@ -1,0 +1,53 @@
+
+current_students:
+  title: Current Students
+  phd_students:
+  - Biplob Biswas (2nd year)
+  - Sanchuan Chen (6th year, co-advised with Dr. Yinqian Zhang)
+  - Mohit Jangid (3rd year, co-advised with Dr. Yinqian Zhang)
+  - Xin Jin (2nd year, co-advised with Dr. Yinqian Zhang)
+  - Haohuang Wen (2nd year)
+  - Wubing Wang (5th year)
+  - Qingchuan Zhao (5th year)
+  - Chaoshun Zuo (5th year)
+  - Mengya Zhang (2nd year, co-advised with Dr. Yinqian Zhang)
+  undergraduate_students:
+  - Andrew Haberlandt
+  - Andrew Migot
+  - Samuel Stephensen
+
+alumni:
+  title: Alumni
+  phd_students:
+  - Raul Quinonez (PhD 2020, co-advised with Dr. Alvaro Cardenas, first employment TBA)
+  - Erick Bauman (PhD 2019, co-adviser Dr. Kevin Hamlen, first employment PostDoc at UT Dallas)
+  - Huibo Wang (PhD 2019, co-adviser Dr. Bhavani Thuraisingham, first employment Baidu X-lab USA)
+  - Swarup Chandra (PhD 2018, co-adviser Dr. Latifur Khan, first employment HP Lab)
+  - Vishal Karande (PhD 2018, co-adviser Dr. Latifur Khan, first employment Google)
+  - Yangchun Fu (PhD 2016, first employment Google)
+  - Yufei Gu (PhD 2016, first employment CloudEra)
+  - Junyuan Zeng (PhD 2015, first employment FireEye)
+  ms_students:
+  - Brian Schieb [MS 2016, first employment Sandia National Lab)
+  - Joshua Hammond (MS 2014, first employment Idaho National Laboratory)
+  - Kenneth Miller (MS 2014, first employment DoD)
+  - Daniel Waymel (MS 2014, first employment State Farm)
+  - Alireza Saberi (Academic visitor during spring 2013, first employment Microsoft)
+  - David B Sounthiraraj (MS 2013, first employment Cisco)
+  - Scott Hand (MS 2013, first employment DoD)
+  - Mathew Stephen (MS 2012, first employment Center for Internet Security)
+  - Kevin Hulin (MS 2012, first employment Sandia National Lab)
+  - Camron Quituga (MS 2012, first employment DoD)
+  - Mitchell Adair (MS 2012, first employment Raytheon)
+  undergraduate_students:
+  - Noah Kritz (Undergraduate, 2019)
+  - Lauren Murphy (Undergraduate, 2017)
+  - Devin Wiley (Undergraduate, 2015, first place winner of Undergraduate Research Expo at UT Dallas)
+  - Tristan Duckworth (Undergradaute, 2014)
+  - Garrett Greenwood (Undergraduate, 2013)
+  high_school_students:
+  - Andrew Wu (High School, 2017)
+  - Jesse Zou (High School, 2017)
+  - Jason Lu (High School, 2016)
+  - Caleb Burnett (High School, 2014)
+

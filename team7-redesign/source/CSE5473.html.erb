@@ -1,0 +1,115 @@
+<!doctype html>
+<!--Each section prints header then prints data from YAML file-->
+<html lang = 'en'>
+  <head>
+      <title>CSE 5473</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <%= stylesheet_link_tag "site" %>
+      <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class = list>
+      <!-- Main page header-->
+      <h2>CSE 5473</h2>
+
+      <!--Course Description section-->
+      <h3>Course Description</h3>
+      <% data.Page_1.course_description.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <!-- Objectives section-->
+      <h3>Objectives</h3>
+      <ul>
+      <% data.Page_1.objectives.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <!-- Levels and Credits section-->  
+      <h3>Level and Credits</h3>
+      <% data.Page_1.level_and_credits.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <!-- Prerequisites section-->  
+      <h3>Prerequisites</h3>
+      <% data.Page_1.prerequisites.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <!-- Office Hours section -->  
+      <h3>Office Hours</h3>
+      <ul>
+      <% data.Page_1.office_hours.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+       <!-- Topics Section -->  
+      <h3>Topics</h3>
+      <ul>
+        <li>Security Basis and course overview - Security threats and services</li>
+        <li>Elements of Cryptography
+        <ul>
+        <% data.Page_1.topics.elements.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+
+        <li>Security Protocols
+        <ul>
+        <% data.Page_1.topics.security_protocols.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+
+        <li>Network and Internet Security
+        <ul>
+        <% data.Page_1.topics.network.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+
+        <li>Advanced network security topics
+        <ul>
+        <% data.Page_1.topics.advanced.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        </li>
+      </ul>
+
+      <!-- Topics Section -->  
+      <h3>Text Books</h3>
+      <ul>
+      <% data.Page_1.text_books.each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+      </ul>
+
+      <!-- Course Policy -->  
+      <h3>Course Policy</h3>
+      <h4>Late Policy</h4>
+      <% data.Page_1.late_policy.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <h4>Collaboration Policy</h4>
+      <% data.Page_1.collaboration_policy.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <h4>Cheating Policy</h4>
+      <% data.Page_1.cheating_policy.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+      </div>
+  </body>
+</html>

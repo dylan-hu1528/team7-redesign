@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Students</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <%= stylesheet_link_tag "site" %>
+      <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class = list>
+
+      <!-- Title of Prof Lin's Original Page -->
+      <h2> The Talented Students I Have Advised and Worked With:</h2>
+
+      <!-- Current Students Header -->
+      <h3>Current Students</h3>
+
+      <!-- PhD students under Current Students -->
+      <h4>PhD Students</h4>
+      <ul>
+        <% data.Page_3.current_students.phd_students.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+
+      <!-- Undergraduate students under Current Students -->
+      <h4>Undergraduate Students</h4>
+      <ul>
+        <% data.Page_3.current_students.undergraduate_students.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+    
+      <!-- Previous Students (Alumni) Header -->
+      <h3>Alumni</h3>
+
+      <!-- PhD Students under Alumni -->
+      <h4>PhD Students</h4>
+      <ul>
+        <% data.Page_3.alumni.phd_students.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+
+      <!-- MS Students under Alumni -->
+      <h4>MS Students</h4>
+      <ul>
+        <% data.Page_3.alumni.ms_students.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+
+      <!-- Undergraduate Students under Alumni -->
+      <h4>Undergraduate Students</h4>
+      <ul>
+        <% data.Page_3.alumni.undergraduate_students.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+
+      <!-- Undergraduate Students under Alumni -->
+      <h3>High School Students</h3>
+      <ul>
+         <% data.Page_3.alumni.high_school_students.each do |item| %>
+        <li><%= item %></li>
+         <% end %>
+      </ul>
+      
+      </div>
+  </body>
+</html>

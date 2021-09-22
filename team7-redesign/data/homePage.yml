@@ -1,0 +1,148 @@
+aboutMe:
+  - I am an Associate Professor of Computer Science and Engineering (CSE) at The Ohio State University (OSU).  I am also a faculty member at Translational Data Analytics Institute (TDAI), Center for Automotive Research (CAR), and the recently launched Institute for Cybersecurity and Digital Trust (ICDT).
+  - My primary research interests are program (e.g., binary code, byte code, or source code; firmware, hypervisor, kernel, or application) analysis and also trusted computing (e.g., trusted execution environment such as SGX/SEV), and their applications to vulnerability discovery, malware analysis, and code/execution hardening. Sometimes, I also use program analysis for other studies such as measurement in order to gain insights and understanding on the security problems of interest.
+  - I am a recipient of both the NSF CAREER Award and the AFOSR YIP Award. In addition to AFOSR and NSF, my research has also been supported in part by DARPA, NSA, ONR, TRC, Raytheon, and VMware.
+  - The best way to reach me is through my email zlin@cse.ohio-state.edu
+  - My office DL 787
+  - Phone&#58; (614) 292-0055
+  - Fax&#58; (614) 292-2911
+  - PGP key&#58; zlin.pub
+  - Mail Address&#58;  Zhiqiang Lin, 787 Dreese Laboratories ,2015 Neil Avenue , Columbus, OH 43210-1277
+
+research:
+  current_interests:
+    mobile_apps_introduction:
+    - Mobile-app centric binary analysis with an emphasis on their connections to (Bluetooth) IoT, Cloud, and Automotive; Bluetooth security; Contact tracing, security and privacy with COVID-19 apps; and blockchain
+    mobile_apps:
+    -  FirmXRay (CCS'20)
+    -  Privacy issues with COVID-19 contact tracing apps (SECURECOMM'20)
+    -  Contact Tracing with Bluetooth (SECURECOMM'20)
+    -  Contact Tracing with Ultrasound Signals (arvix)
+    -  InputScope (S&P'20)
+    -  CAN-Hunter (NDSS'20)
+    -  DongleScope (USENIX-SEC'20)
+    -  SAVIOR (USENIX-SEC'20)
+    -  FirmScope (USENIX-SEC'20)
+    -  Bluetooth Downgrading Attacks (USENIX-SEC'20)
+    -  TxSpector (USENIX-SEC'20)
+    -  BleScope (CCS'19)
+    -  SkyWalker (USENIX-SEC'19)
+    -  Leaks in Ride-hailing Services (NDSS'19)
+    -  LeakScope (S&P'19)
+    -  IoTFuzzer (NDSS'18)
+    -  AuthScope (CCS'17)
+    -  SmartGen (WWW'17)
+    -  AutoForge (NDSS'16)
+    -  SMV-Hunter (NDSS'14)
+    software_security_introduction:
+    - Software Security (binary or firmware code analysis, vulnerability discovery, and software hardening).
+    software_security:
+    -  FirmScope (USENIX-SEC'20)
+    -  CONFIRM CFI Benchmarks (USENIX-SEC'19)
+    -  Probabilistic Disassembly (ICSE'19)
+    -  Superset Disassembly (NDSS'18)
+    -  K-Hunt (CCS'18)
+    -  Guarder (USENIX-SEC'18)
+    -  FreeGuard (CCS'17),
+    -  X-Force (USENIX-SEC'14)
+    -  Trace-oriented Programming (CCS'13)
+    -  STIR (CCS'12)
+    -  REWARDS (NDSS'10)
+    -  IntScope (NDSS'09)
+    -  AutoFormat (NDSS'08)
+    system_security_introduction:
+    - Systems Security (OS kernel and hypervisor security, trusted computing)
+    system_security:
+    -  Rust-SGX (CCS'19)
+    -  AMD-SEV-IO-Security (USENIX-SEC'19)
+    -  SGX-Pectre (EUROSP'19)
+    -  SGX-BigMatrix (CCS'17)
+    -  SGX-Elide (CGO'18)
+    -  SGX-LAPD (RAID'17)
+    -  Hybrid-Bridge (NDSS'14)
+    -  HyperShell (USENIX-ATC'14)
+    -  Crypto-key Protection (USENIX-SEC'14)
+    -  VM Space Travler (S&P'12)
+    -  SigGraph (NDSS'11)
+  groups:
+    -  The Computer Security Laboratory (SecLab) at The Ohio State University.
+    -  The talented students I have the fortune to have advised and worked with.
+  publications:
+    -  (CCS'20) FirmXRay&#58; Detecting Bluetooth Link Layer Vulnerabilities from Bare-Metal Firmware
+    -  (S&P'20) Automatic Uncovering of Hidden Behaviors From Input Validation in Mobile Apps
+    -  (USENIX-SEC'20) Plug-N-Pwned Comprehensive Vulnerability Analysis of OBD-II Dongles as A New Over-the-Air Attack Surface (in Automotive IoT)
+    -  (USENIX-SEC'20) "FirmScope&#58; Automatic Uncovering of Privilege-Escalation Vulnerabilities in Pre-Installed Apps in Android Firmware"
+    -  (USENIX-SEC'20) SAVIOR&#58; Securing Autonomous Vehicles with Robust Physical Invariants
+    -  (USENIX-SEC'20) Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks
+    -  (USENIX-SEC'20) TXSPECTOR&#58; Uncovering Attacks in Ethereum from Transactions
+    -  (NDSS'20) Automated Cross-Platform Reverse Engineering of CAN Bus Commands From Mobile Apps
+    -  (CCS'19) "Automatic Fingerprinting of Vulnerable BLE IoT Devices with Static UUIDs From Mobile Apps"
+    -  (CCS'19) "Towards Memory Safe Enclave Programming with Rust-SGX"
+    -  (USENIX-SEC'19) "The Betrayal At Cloud City&#58; An Empirical Analysis Of Cloud-Based Mobile Backends"
+    -  (USENIX-SEC'19) "CONFIRM&#58; Evaluating Compatibility and Relevance of Control-flow Integrity Protections for Modern Software"
+    -  (USENIX-SEC'19) "Exploiting Unprotected I/O Operations in AMD’s Secure Encrypted Virtualization"
+    -  (S&P'19) "Why Does Your Data Leak? Uncovering the Data Leakage in Cloud From Mobile Apps"
+    -  (NDSS'19) "Geo-locating Drivers&#58; A Study of Sensitive Data Leakage in Ride-Hailing Services"
+    -  (CCS'18) "K-Hunt&#58; Pinpointing Insecure Cryptographic Keys from Execution Traces"
+    -  (NDSS'18) "Superset Disassembly&#58; Statically Rewriting x86 Binaries Without Heuristics"
+    -  (NDSS'18) "IoTFuzzer&#58; Discovering Memory Corruptions in IoT Through App-based Fuzzing"
+    -  (CCS'17) "AuthScope&#58; Towards Automatic Discovery of Vulnerable Authorizations in Online Services"
+    -  (NDSS'16) "Automatic Forgery of Cryptographically Consistent Messages to Identify Security Vulnerabilities in Mobile Services" (or How to brute-force user's password when given a mobile app)
+    -  (USENIX-SEC'14) "X-Force&#58; Force-Executing Binary Programs for Security Applications"
+    -  (NDSS'14) "Hybrid-Bridge&#58; Efficiently Bridging the Semantic-Gap in Virtual Machine Introspection via Decoupled Execution and Training Memoization"
+    -  (NDSS'14) "SMV-Hunter&#58; Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps"
+    -  (CCS'13) "Obfuscation-resilient Binary Code Reuse through Trace-oriented Programming"
+    -  (CCS'12) "Binary Stirring&#58; Self-randomizing Instruction Addresses of Legacy x86 Binary Code"
+    -  (S&P'12) "Space Traveling across VM&#58; Automatically Bridging the Semantic Gap in Virtual Machine Introspection via Online Kernel Data Redirection"
+  teaching:
+    -  CSE 5473 Network Security Fall 2020
+    -  CSE 6493 Advanced Studies in Computer Security Fall 2020
+  service:
+    editorial_service:
+    -  Associate Editor IEEE Transactions on Dependable and Secure Computing (TDSC), 16~
+    -  Associate Editor IEEE Transactions on Mobile Computing (TMC), 20~
+    conference_organization:
+    -  Program co-chair ACM ASIA Conference on Computer and Communications Security (ASIACCS), 21
+    -  Program co-chair Information Security Conference (ISC), 19
+    -  Program co-chair Workshop on Forming an Ecosystem Around Software Transformation (FEAST), 19
+    -  Area chair ACM Conference on Computer and Communications Security (CCS), 19
+    -  Steering committee International Symposium on Research in Attacks, Intrusions and Defenses (RAID), 17~
+    -  Steering committee Information Security Conference, 19~
+    -  Local arrangement chair ACM Conference on Computer and Communications Security (CCS), 17
+    technical_program_committee_member:
+    -  IEEE Symposium on Security and Privacy, 21
+    -  ACM Conference on Computer and Communications Security (CCS), 14, 15, 16, 18, 19, 20
+    -  Network and Distributed System Security Symposium (NDSS), 15, 19, 20
+    -  USENIX Security Symposium, 17
+    -  World Wide Web (WWW) Conference, 18
+    -  IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 20, 21
+    -  ACM ASIA Conference on Computer and Communications Security (ASIACCS), 13, 14, 15, 16, 18
+    -  Annual Computer Security Applications Conference (ACSAC), 14, 16, 17, 18, 19, 20
+    -  International Symposium on Research in Attacks, Intrusions and Defenses (RAID), 16
+    -  Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA), 16, 17, 18, 19
+    -  International Conference on Applied Cryptography and Network Security (ACNS), 20 21
+    -  Annual Digital Forensics Research Conference (DFRWS), 13, 14, 15, 16, 17, 18, 19, 20
+    -  International Conf. on Security and Privacy in Comm. Networks (SECURECOMM), 15, 16, 17, 18, 19, 20
+    -  International Conference on Privacy, Security and Trust (PST), 13, 14, 15, 18, 19
+    -  ACM Cloud Computing Security Workshop (CCSW), 19
+    -  Information Security Conference (ISC), 17, 19
+    -  Workshop on System Software for Trusted Execution (SysTex), 16, 17
+    -  Workshop on Forming an Ecosystem Around Software Transformation (FEAST), 17, 18, 19
+    -  IEEE International Conference on Distributed Computing Systems (ICDCS), 14
+    -  IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 13, 14
+    -  IEEE International Conference on Big Data (BigData), 13, 14, 16
+    -  International Congress on Big Data (BigData), 14, 17
+    -  International Symposium on Foundations and Applications of Big Data Analytics (FAB), 15, 16
+    -  International Symposium on Big Data Management and Analytics (BIDMA), 16
+    -  IEEE International Conference on Cyber Security and Cloud Computing (CSCloud), 15
+    -  International Workshop on Cloud Compliance (IWCC), 15
+    -  The European Workshop on Systems Security (EuroSec), 14
+    -  IEEE International Performance Computing and Communications Conference (IPCCC), 11, 12, 13, 14, 15
+    -  Workshop on Hardware and Architectural Support for Security and Privacy (HASP), 12, 13, 14, 15, 16
+    -  International Symposium on Secure Virtual Infrastructures, 13, 14
+    panelist:
+    -  NSF proposal review panels, 12, 16, 17, 18, 19, 20
+    artifact_evaluation_committee_member:
+    -  Annual Computer Security Applications Conference (ACSAC), 19, 20
+  calender:
+    - My Calender (http://web.cse.ohio-state.edu/~lin.3021/calendar.html)

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Each section prints header then prints data from YAML file-->
+  <head>
+    <title>CSE 6469</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <%= stylesheet_link_tag "site" %>
+      <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div class = list>
+
+      <!-- Main page header-->
+      <h2>CSE 6469</h2>
+
+      <!--Course Description section-->
+      <h3>Course Description</h3>
+      <% data.Page_2.course_description.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+      
+      <!--Course Schedule section-->
+      <h3>Course Schedule</h3>
+      <table>
+      <tbody>
+
+        <!--Table Headers-->
+        <tr><th colspan= "3"> Hardware Security</th></tr>
+        <tr> 
+        <td><b>Date</b></td>
+        <td><b>Speaker</b></td>
+        <td><b>Topic/ Talk Title</b></td>
+        </tr>
+          <!--Hardware Security Section of table-->
+          <tr>
+          <td>
+          <% data.Page_2.course_schedule.hardware_security.a.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %>
+          </td> 
+          <td><% data.Page_2.course_schedule.hardware_security.a.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td> <td><% data.Page_2.course_schedule.hardware_security.a.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.hardware_security.b.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.hardware_security.b.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.hardware_security.b.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.hardware_security.c.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.hardware_security.c.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.hardware_security.c.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+          
+        <!--Table Headers-->
+        <tr><th colspan= "3"> Software Security</th></tr>  
+        <tr> 
+        <td><b>Date</b></td>
+        <td><b>Speaker</b></td>
+        <td><b>Topic/ Talk Title</b></td>
+        </tr>
+          <!--Software Security-->
+          <tr>
+          <td><% data.Page_2.course_schedule.software_security.a.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.a.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.a.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.software_security.b.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.b.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.b.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.software_security.c.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.c.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.c.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.software_security.d.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.d.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.software_security.d.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+
+        <!--Table Headers-->
+        <tr><th colspan= "3">IoT Security</th></tr>  
+        <tr> 
+        <td><b>Date</b></td>
+        <td><b>Speaker</b></td>
+        <td><b>Topic/ Talk Title</b></td>
+        </tr>
+           <!--IoT Security Section-->
+          <tr><td><% data.Page_2.course_schedule.iot_security.a.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.a.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.a.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.iot_security.b.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.b.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.b.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.iot_security.c.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.c.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.iot_security.c.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+        <!--Table Headers-->
+        <tr><th colspan= "3">Mobile Security</th><tr>
+        <td><b>Date</b></td>
+        <td><b>Speaker</b></td>
+        <td><b>Topic/ Talk Title</b></td>
+    
+           <!--Mobile Security-->
+          <tr>
+          <td><% data.Page_2.course_schedule.mobile_security.a.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.a.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.a.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.mobile_security.b.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.b.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.b.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+          <tr>
+          <td><% data.Page_2.course_schedule.mobile_security.c.date.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.c.speaker.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td><td><% data.Page_2.course_schedule.mobile_security.c.topic.each do |item| %>
+            <p><%= item %></p>
+          <% end %></td>
+          </tr>
+
+      </tbody>
+      </table>
+
+       <!--Course Logistics Section-->
+      <h3>Course Logistics</h3>
+      <% data.Page_2.course_logistics.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+      <!--Attendance Policy Section-->
+      <h3>Attendence Policy</h3>
+      <% data.Page_2.attendence_policy.each do |item| %>
+        <p><%= item %></p>
+      <% end %>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+course_description:
+- Security threats and services, elements of cryptography, protocols for security services, network and Internet security, advanced security issues and technologies. We will cover not only fundamental security concepts and knowledge, but also practical techniques for network attacks and defenses.
+
+objectives:
+- Mastery of concepts and techniques of network security attacks and countermeasures.
+- Familiarity with some fundamentals of cryptography
+- Familiarity with network security designs using available secure solutions
+- Familiarity with state-or-the-art security issues and technologies
+- Exposure to research in network security
+
+level_and_credits:
+- Undergraduate/Graduate 3 credits
+
+prerequisites:
+- CSE 3461 (formerly, CSE 677) or CSE 5461 or permission of instructor. Not open to students with credit for CSE 651.
+
+office_hours:
+- Instructor M/W 2:00PM - 3:00PM (or by appointment). Office DL 787
+- TA (Gan, Yifan gan.101@buckeyemail.osu.edu) Monday 10:00-11:00am, Thursday 4:00-5:00pm DL 190
+
+topics:
+  elements:
+  - Classic ciphers, modern ciphers, stream ciphers and block ciphers
+  - Secret key (symmetric)&#58; DES/AES
+  - Public key (asymmetric)&#58; RSA/DSA
+  security_protocols:
+  - Key distribution and management
+  - Data integrity and message authentication codes
+  - Non-repudiation and digital signatures
+  network:
+  - Transport-level security&#58; SSL and TLS
+  - Wireless network security
+  - Email security&#58; Pretty Good Privacy (PGP) -IP security&#58; IPSec and VPN
+  advanced:
+  - Bitcoin and digital currencies
+  - Distributed denial-of-service attacks
+  - Firewalls and intrusion detection
+  - User authentication&#58; password security
+  - Anonymous communications
+  - Web and browser security
+
+text_books:
+- William Stallings, ``Cryptography and Network Security Principles and Practice'', 7th Edition (Pearson). 4th/5th/6th Edition also works.
+
+course_policy:
+
+late_policy:
+- All late submissions will automatically lose 10 points per delayed day until the points in that project are gone.
+
+collaboration_policy:
+- Students are encouraged to collaborate, particularly on the discussion on the course project. However, each individual must finish the project by him/her-self.
+
+cheating_policy:
+- We will strictly follow the university policy on cheating and plagiarism which is available here. If you have any questions regarding this issue, please contact the instructor.
